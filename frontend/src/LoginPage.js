@@ -17,6 +17,10 @@ function LoginPage() {
    async function handleSubmit() {
       let payload = { email, password }
 
+<<<<<<< HEAD:src/LoginPage.js
+=======
+      console.log({ payload })
+>>>>>>> 8edc597e719b681cf17401f25e317aa94b6b7d39:frontend/src/LoginPage.js
       try {
          var response = await api.post("/auth", payload);
          localStorage.setItem("hs:token", response.data.token)

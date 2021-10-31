@@ -45,7 +45,11 @@ const [authorized, setAuthorized] = useState(false)
             <div className='header__right'>  
                 {/*<Avatar />*/}   
                 <a href='./search'>Quartos</a>
+<<<<<<< HEAD:src/Header.js
                 <a href='./Contato'>Contatos</a> 
+=======
+                <a href='./'>Contatos</a> 
+>>>>>>> 8edc597e719b681cf17401f25e317aa94b6b7d39:frontend/src/Header.js
                 {authorized ? <a href="./" onClick={() => localStorage.removeItem("hs:token")}>Logout</a> : <a href='./'>Login</a>} 
                {/*<LanguageIcon />*/}
                 
